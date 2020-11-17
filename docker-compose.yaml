@@ -1,0 +1,7 @@
+version: "2.3"
+services:
+  web:
+      container_name: mygamecurrency 
+      image: mygamecurrency:latest
+      ports:
+        - 8072:8072
